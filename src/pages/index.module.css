@@ -1,0 +1,37 @@
+.content,
+.q4Content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.q4Content {
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-35xl) 0 var(--padding-35xl) 4px;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  margin-top: -2px;
+}
+.content {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.background {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--mobile-ios-default-systemgray-light-gray-06);
+}
+.doorRepairQ4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--g-board-ffffff);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,34 @@
+.fill {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  right: 25%;
+  bottom: 25%;
+  left: 25%;
+  border-radius: var(--br-12xs);
+  background-color: var(--g-board-666666);
+}
+.iconTasks {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.homeIndicator {
+  flex: 1;
+  background-color: var(--g-board-ffffff);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-59xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 292px) {
+  .homeIndicator {
+    flex-wrap: wrap;
+  }
+}

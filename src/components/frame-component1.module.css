@@ -1,0 +1,23 @@
+.multiselectionCards,
+.multiselectionCardsParent,
+.q5ContentInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.multiselectionCardsParent,
+.q5ContentInner {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.multiselectionCardsParent {
+  gap: var(--gap-base);
+}
+.q5ContentInner {
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}

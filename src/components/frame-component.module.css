@@ -1,0 +1,27 @@
+.frameParent,
+.multiselectionCardWrapper,
+.q4ContentInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameParent,
+.q4ContentInner {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: var(--gap-base);
+}
+.q4ContentInner {
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--mobile-android-subtitle-2-m1424-size);
+  color: var(--color-black);
+  font-family: var(--mobile-android-subtitle-1-m1624);
+}

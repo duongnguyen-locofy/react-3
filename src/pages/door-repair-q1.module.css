@@ -1,0 +1,40 @@
+.q5Content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 164px;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.background {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--mobile-ios-default-systemgray-light-gray-06);
+  margin-top: -2px;
+}
+.doorRepairQ5,
+.q5ContentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.q5ContentParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.doorRepairQ5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--g-board-ffffff);
+  overflow: hidden;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

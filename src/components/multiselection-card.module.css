@@ -1,0 +1,40 @@
+.installation {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.installationWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 198px;
+}
+.multiselectionCard,
+.selectcheckoffParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.selectcheckoffParent {
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-base);
+}
+.multiselectionCard {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--mobile-ios-default-systemgray-light-gray-03);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-mini);
+  min-height: 56px;
+  text-align: left;
+  font-size: var(--mobile-android-subtitle-2-m1424-size);
+  color: var(--color-black);
+  font-family: var(--mobile-android-subtitle-1-m1624);
+}

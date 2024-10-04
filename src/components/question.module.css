@@ -1,0 +1,29 @@
+.whatTypeOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.selectTheAdequated {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--mobile-android-subtitle-1-r1624-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  color: var(--mobile-ios-default-systemgray-light-gray-01);
+}
+.question {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-base);
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--mobile-android-headline-4-r3436-size);
+  color: var(--color-black);
+  font-family: var(--mobile-android-subtitle-1-m1624);
+}

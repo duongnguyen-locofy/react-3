@@ -1,0 +1,58 @@
+.estimationValue,
+.totalEstimation {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 105px;
+}
+.estimationValue {
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  min-width: 85px;
+}
+.arrowDropDownIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.estimationValueParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  font-size: var(--mobile-android-subtitle-1-m1624-size);
+  color: var(--color-black);
+}
+.totalEstimationParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.selectradio {
+  align-self: stretch;
+  background-color: var(--g-board-ffffff);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--mobile-android-subtitle-2-m1424-size);
+  color: var(--mobile-ios-default-systemgray-light-gray-01);
+  font-family: var(--mobile-android-subtitle-1-m1624);
+}
+@media screen and (max-width: 426px) {
+  .selectradio {
+    flex-wrap: wrap;
+  }
+}
